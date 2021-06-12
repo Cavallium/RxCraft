@@ -13,4 +13,25 @@
     <module>api</module>
     <module>server</module>
   </modules>
+
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>io.projectreactor</groupId>
+        <artifactId>reactor-core</artifactId>
+        <version>3.4.6</version>
+      </dependency>
+      <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-api</artifactId>
+        <version>1.7.30</version>
+      </dependency>
+      <dependency>
+        <groupId>it.cavallium</groupId>
+        <artifactId>dbengine</artifactId>
+        <version>3.0.167</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 </project>
