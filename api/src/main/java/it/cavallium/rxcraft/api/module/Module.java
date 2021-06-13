@@ -1,5 +1,6 @@
-package it.cavallium.rxcraft.api;
+package it.cavallium.rxcraft.api.module;
 
+import it.cavallium.rxcraft.api.data.BlockDefinition;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
@@ -15,5 +16,5 @@ public interface Module {
 
 	Flux<BlockDefinition> getBlockDefinitions();
 
-	Flux<BlockManager> getBlockManagers();
+	Flux<BlockTransformer> getBlockManagers();
 }

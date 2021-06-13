@@ -12,6 +12,7 @@
   <modules>
     <module>api</module>
     <module>server</module>
+    <module>game-mechanics</module>
   </modules>
 
 
@@ -31,6 +32,26 @@
         <groupId>it.cavallium</groupId>
         <artifactId>dbengine</artifactId>
         <version>3.0.167</version>
+      </dependency>
+      <dependency>
+        <groupId>it.cavallium</groupId>
+        <artifactId>rxcraft-api</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+        <groupId>it.cavallium</groupId>
+        <artifactId>rxcraft-server</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+        <groupId>it.cavallium</groupId>
+        <artifactId>rxcraft-game-mechanics</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+        <groupId>it.cavallium</groupId>
+        <artifactId>rxcraft-survival-server</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
